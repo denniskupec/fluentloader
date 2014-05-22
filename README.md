@@ -5,7 +5,7 @@ SplClassLoader modified with an added method that makes this _fluent_. Makes thi
 
 **Original Class:** https://gist.github.com/jwage/221634  
 
-**Original Usage:**
+###Original Usage:
 ```php
 require("<your-path>/FluentLoader.php");  
 $class_loader = new FluentLoader("namespace", "path");
@@ -13,13 +13,13 @@ $class_loader->register();
 // multiple times for multiple namespaces
 ```
 
-**Registering one namespace:**
+###Registering one namespace:
 ```php
 require("<your-path>/FluentLoader.php");  
 FluentLoader::create("namespace", "path");
 ```
 
-**Registering multiple:**
+###Registering multiple:
 ```php
 require("<your-path>/FluentLoader.php");  
 FluentLoader::create(array(
