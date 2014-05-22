@@ -1,6 +1,6 @@
 <?php
 
-final class FluentLoader
+class FluentLoader
 {
 
    private $_fileExtension = ".php";
