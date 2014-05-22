@@ -6,14 +6,12 @@ SplClassLoader modified with an added method that makes this _fluent_. Makes thi
 **Original Class:** https://gist.github.com/jwage/221634  
 
 **Registering one namespace:**
-
 ```php
 require("<your-path>/FluentClass.php");  
 FluentLoader::create("namespace", "path");
 ```
 
 **Registering multiple:**
-
 ```php
 require("<your-path>/FluentClass.php");  
 FluentLoader::create(array(
